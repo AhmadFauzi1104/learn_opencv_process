@@ -45,17 +45,17 @@ def txt():
 	pen.up()
 
 
-	pen.setpos(-68, 95)
+	pen.setpos(-100, 0)
 
 
 	pen.down()
 
 
-	pen.color('lightgreen')
+	pen.color('black')
 
 
-	pen.write("Caca", font=(
-	"Verdana", 12, "bold"))
+	pen.write("I love Caca", font=(
+	"Verdana", 10, "bold"))
 
 
 
@@ -66,3 +66,5 @@ txt()
 
 
 pen.ht()
+
+
