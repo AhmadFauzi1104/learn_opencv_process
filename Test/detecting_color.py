@@ -37,7 +37,7 @@ while True:
 
 
     cv2.imshow("original img",img)
-    #cv2.imshow("hsv image", imgHsv)
+    cv2.imshow("hsv image", imgHsv)
     cv2.imshow("mask img", mask)
     cv2.imshow("result img", result)
     if cv2.waitKey(1) & 0xFF == ord("q"):
